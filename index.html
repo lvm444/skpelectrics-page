@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skpelectrics - Плагин для электрики в SketchUp | Подсчет кабеля и объема работ</title>
+    <meta name="description" content="Плагин для автоматизации проектирования электрики в SketchUp. Подсчет длины кабеля, формирование кабельного журнала, отчет по материалам. Скачайте бесплатно для SketchUp.">
+    <meta name="keywords" content="sketchup электрика, sketchup плагин для электриков, плагин для электрики в скетчап, как считать кабель в sketchup, объем работ sketchup, проектирование электрики, кабельный журнал sketchup">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #24292e;
+        }
+        h1, h2, h3 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            color: #24292e;
+        }
+        h1 {
+            padding-bottom: 0.3em;
+            font-size: 2em;
+            border-bottom: 1px solid #eaecef;
+        }
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3em;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code, pre {
+            font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+            background-color: rgba(27,31,35,0.05);
+            border-radius: 3px;
+            padding: 0.2em 0.4em;
+            font-size: 85%;
+        }
+        pre {
+            padding: 16px;
+            overflow: auto;
+            line-height: 1.45;
+        }
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            background-color: #2ea44f;
+            color: #fff;
+            border: 1px solid rgba(27,31,35,0.15);
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        .btn:hover {
+            background-color: #2c974b;
+            text-decoration: none;
+        }
+        .highlight {
+            background-color: #f6f8fa;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin: 24px 0;
+        }
+        .feature {
+            flex: 1 1 200px;
+            background-color: #f6f8fa;
+            padding: 16px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h1>skpelectrics</h1>
+    
+    <p>Плагин для SketchUp для автоматизации проектирования электрики и расчета материалов</p>
+    
+    <a href="latest_skpelectrics.rbz" class="btn">Download for SketchUp</a>
+    <a href="https://github.com/yourusername/skpelectrics" class="btn">View on GitHub</a>
+
+    <div class="features">
+        <div class="feature">
+            <h3>📏 Подсчет кабеля</h3>
+            <p>Автоматический расчет длины кабеля по 3D-модели</p>
+        </div>
+        <div class="feature">
+            <h3>📊 Кабельный журнал</h3>
+            <p>Генерация полного кабельного журнала</p>
+        </div>
+        <div class="feature">
+            <h3>📦 Отчет по материалам</h3>
+            <p>Расчет количества кабеля и сопутствующих материалов</p>
+        </div>
+    </div>
+
+    <h2>Установка</h2>
+    <ol>
+        <li>Скачайте <a href="latest_skpelectrics.rbz">последнюю версию плагина</a></li>
+        <li>В SketchUp: <code>Window → Extension Manager → Install Extension</code></li>
+        <li>Выберите скачанный файл .rbz</li>
+    </ol>
+
+    <h2>Использование</h2>
+    
+    <h3>Создание кабельных линий</h3>
+    <p>Группируйте кабели с именем в формате:</p>
+    
+    <pre><code>&lt;Код&gt;-&lt;Тип&gt;-&lt;Помещение&gt; Описание
+Пример: 09-РОЗ-ГОСТ Розетки гостиной</code></pre>
+    
+    <h3>Генерация отчетов</h3>
+    <p>Доступные команды в меню <code>Extensions → skpelectrics</code>:</p>
+    <ul>
+        <li>Сформировать кабельный журнал</li>
+        <li>Отчет по материалам</li>
+        <li>Указать способ прокладки кабеля</li>
+    </ul>
+
+    <h2>Лицензия</h2>
+    <p>Проект распространяется под лицензией <a href="https://opensource.org/licenses/MIT">MIT</a>. Исходный код доступен на <a href="https://github.com/yourusername/skpelectrics">GitHub</a>.</p>
+
+    <h2>Обратная связь</h2>
+    <p>Для вопросов и предложений: <a href="https://t.me/skpelectrics_feedback">Telegram</a></p>
+</body>
+</html>
