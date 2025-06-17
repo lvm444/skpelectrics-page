@@ -1,4 +1,6 @@
 # skpelectrics  
 Плагин для SketchUp для автоматизации электрических расчётов  
 
-**Сайт проекта:** [https://skpelectrics-page](http://lvm444.github.io/skpelectrics-page)
+**Сайт проекта:** [skpelectrics](http://lvm444.github.io/skpelectrics-page)
+**github:** [github](https://github.com/lvm444/skpelectrics)
+
